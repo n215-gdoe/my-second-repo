@@ -1,0 +1,75 @@
+.cards_section {
+  display: flex;
+  margin: 0vh 180px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  position: relative;
+  top: -8vh;
+  @media (min-width: 1400px) {
+    margin: 0vh 300px;
+  }
+  @media (min-width: 1600px) {
+    margin: 0vh 400px;
+  }
+  @media only screen and (max-width: 900px) {
+    flex-direction: column;
+  }
+  .USA {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/usa.png);
+  }
+
+  .AUSTRAILIA {
+    margin-right: 0px !important;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/austrailia.png);
+  }
+
+  .ISRAEL {
+    margin-left: 0px !important;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/israel.png);
+  }
+  .card {
+    flex: 1;
+    min-height: 300px;
+    margin: 0px 25px 20px;
+    min-width: 240px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    h2 {
+      font-size: 60px;
+      font-weight: 100;
+      font-style: normal;
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 0px;
+    }
+    p {
+      font-size: 30px;
+      font-weight: 100;
+      font-style: normal;
+      text-align: center;
+      color: #ffffff;
+    }
+    button {
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      text-align: center;
+      color: #ffffff;
+      margin-top: 50px;
+      border-radius: 20px;
+      padding: 11px 17px;
+      border: none;
+      background: #79addc;
+    }
+  }
+}

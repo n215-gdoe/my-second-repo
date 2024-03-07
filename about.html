@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel-Fly</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="hero">
+        <nav>
+          <div class="nav_main">
+            <div class="nav_logo">
+              <img src="./images/black-logo.png" alt="" />
+            </div>
+            <div class="nav_manu">
+              <ul>
+                <li class="nav_items"><a href="./index.html">home</a></li>
+                <li class="nav_items"><a href="./about.html">about</a></li>
+                <li class="nav_items"><a href="">tours</a></li>
+                <li class="nav_items"><a href="">special offers</a></li>
+                <li class="nav_items"><a href="">blog</a></li>
+                <li class="nav_items"><a href="">contact</a></li>
+              </ul>
+            </div>
+            <div id="nav-icon2">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="about_main">
+        <h1 class="about_h1">ABOUT:</h1>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+          aliquam quaerat voluptatem.
+        </p>
+      </div>
+      <div class="client_quotes">
+        <h2>CLIENT QUOTES:</h2>
+        <div class="quotes">
+          <div class="client_q">
+            <img src="./images/about-client-01.png" alt="" class="client_img" />
+            <div class="text">
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
+              <div class="client_name">- Miranda Brown</div>
+            </div>
+          </div>
+          <div class="client_q">
+            <img src="./images/about-client-02.png" alt="" class="client_img" />
+            <div class="text">
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
+              <div class="client_name">- Johnathan wes</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="logo"><img src="./images/logo.png" alt="" /></div>
+      <div class="copyright">
+        Copyright 2019 travel-fly. All rights reserved
+      </div>
+      <div class="icons">
+        <img src="./images/facebook.png" alt="" />
+        <img src="./images/instagram.png" alt="" />
+        <img src="./images/twitter.png" alt="" />
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4").click(function () {
+          $(this).toggleClass("open");
+        });
+      });
+    </script>
+  </body>
+</html>

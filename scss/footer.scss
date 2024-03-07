@@ -1,0 +1,32 @@
+footer {
+  background: #79addc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 150px;
+  color: white;
+  margin-top: 100px;
+  @media only screen and (max-width: 900px) {
+    flex-direction: column;
+    padding: 30px 50px;
+  }
+
+  .copyright {
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    @media only screen and (max-width: 900px) {
+      margin-bottom: 30px;
+      margin-top: 20px;
+    }
+  }
+  .icons {
+    img {
+      margin: 0px 11px;
+      width: 22.5px;
+      height: 22.5px;
+    }
+  }
+}
